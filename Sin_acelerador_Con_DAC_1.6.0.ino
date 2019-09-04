@@ -379,7 +379,7 @@ void setup() {
   
   // Configura DAC
   dac.begin(dir_dac);
-  dac.setVoltage(810, true); // fija voltaje inicial en Dac (0.85v)
+  dac.setVoltage(810, false); // fija voltaje inicial en Dac (0.85v)
 
   // Si encendemos la bici con el freno pulsado activamos la ayuda salida en cuesta 
   // Una vez oido el beep inicial ya se puede soltar el freno o dar toques para cambiar de modo
